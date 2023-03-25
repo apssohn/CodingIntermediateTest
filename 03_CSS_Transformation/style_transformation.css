@@ -12,3 +12,9 @@ div {
     width: 20rem;
     height: 20rem;
 }
+
+div:hover {
+    transform: rotate(45deg) scale(1.2);
+    background-color: #b8c0ff;
+    transition: all 2s;
+}

@@ -13,7 +13,21 @@ body {
 }
 
 div {
-    background: white;
     width: 10vw;
     height: 10vw;
+    background-color: white;
+    animation: move 5s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(80vw);
+        border-radius: 50%;
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
